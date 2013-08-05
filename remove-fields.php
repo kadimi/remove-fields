@@ -18,7 +18,6 @@ function remove_website() {
 		jQuery(document).ready(function($){
 			$p = $('#url').parent();
 			$('#url, label[for=url]').remove();
-			$('label#url').parents('tr').remove();
 			$p.is(':empty').remove();
 	});
 	</script><?php
