@@ -12,14 +12,14 @@ Author Email: nabil@kadimi.com
 /*
  * Remove Website Field from the comment form
  */
-add_action('admin_head','remove_website');
+add_action('wp_head','remove_website');
 function remove_website() {
 	?><script>
 		jQuery(document).ready(function($){
 			$p = $('#url').parent();
 			$('#url, label[for=url]').remove();
 			$p.is(':empty').remove();
-	});
+		});
 	</script><?php
 }
 
