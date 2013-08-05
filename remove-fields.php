@@ -5,6 +5,7 @@ Plugin URI: http://www.kadimi.com/
 Description: Remove Fields.
 Version: 0.1
 Author: Nabil Kadimi
+Author URI: http://www.kadimi.com/en/
 Author Email: nabil@kadimi.com
 */
 
