@@ -9,9 +9,12 @@ Remove the website field from the comment form and also remove some other rarely
 
 == Description ==
 
-Do you know why your posts are not getting any comments? It's probably because of the website input field in the comment form, from my personal experience, **the number of comments increased dramatically after I removed that website field**, and this is actually what this plugin does.
+Do you know why your posts are not getting any comments? It's probably because of the website input field in the comment form. 
+
+My personal experience: **the number of comments increased dramatically after I removed that website field**.
 
 In addition to removing the website field from the comments form, the plugin removes these fields from the profile page:
+
 * Personal Options section (Visual Editor, Admin Color Scheme, Keyboard Shortcuts, Toolbar & Admin Language)
 * AIM, Yahoo IM and Jabber / Google Talk
 * About Yourself section (Biographical Info)
