@@ -15,8 +15,11 @@ Author Email: nabil@kadimi.com
 add_action('admin_head','remove_website');
 function remove_website() {
 	?><script>
-		jQuery(document).ready(function(){
-		jQuery('#url').parents('tr').remove();
+		jQuery(document).ready(function($){
+			$p = $('#url').parent();
+			$('#url, label[for=url]').remove();
+			$('label#url').parents('tr').remove();
+			$p.is(':empty').remove();
 	});
 	</script><?php
 }
