@@ -5,7 +5,7 @@ Requires at least: 3.2
 Tested up to: 3.6
 Stable tag: trunk
 
-Remove the website field from the comment form and also remove some other rarely used (AIM, Jabber, Bio...)
+Remove the website field from the comment form and also remove some other rarely used fields (AIM, Jabber, Bio...)
 
 == Description ==
 
