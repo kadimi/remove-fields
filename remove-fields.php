@@ -3,7 +3,7 @@
  * Plugin Name: Remove Fields
  * Plugin URI: https://www.github.com/kadimi/remove-fields
  * Description: Remove Fields.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Nabil Kadimi
  * Author URI: http://kadimi.com
  * Author Email: nabil@kadimi.com
@@ -37,7 +37,7 @@ class RemoveFields {
 	 *
 	 * @var String
 	 */
-	protected $plugin_version = '1.0.0';
+	protected $plugin_version = '1.0.1';
 
 	/**
 	 * Plugin directory path.
